@@ -17,5 +17,10 @@ pipeline {
                 echo 'Deploying Services..!!!'
             }
         }
+        stage('Monitor') {
+            steps {
+                echo 'Monitoring Services..!!!'
+            }
+        }
     }
 }
