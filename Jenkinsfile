@@ -20,7 +20,6 @@ pipeline {
         stage('Monitor') {
             steps {
                 echo 'Monitoring Services..!!!'
-                archiveArtifacts artifacts: '/home/gt/Archive/archive.zip'
             }
         }
     }
